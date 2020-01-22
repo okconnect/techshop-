@@ -1,0 +1,151 @@
+<!Doctype html>
+<html>
+<head>
+	<meta http-equiv = "content-type" content ="text/html; charset =UTF-8">
+	<meta name ="viewport" content ="width=device-width, initial-scale=1">
+	<title>shop page</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel = "stylesheet" href ="css/customcss.css">
+	<script type ="text/javascript">
+	function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "top-menu-right") {
+    x.className += " responsive";
+  } else {
+    x.className = "top-menu-right";
+  }
+} 
+// When the user scrolls down 50px from the top of the document, resize the header's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("header").style.display = "block";
+  } else {
+    document.getElementById("header").style.display = "none";
+  }
+}
+</script>
+
+
+</head>
+<body bgcolor="#fff">
+      
+             <div class ="row">
+			<div class ="topnav">
+			
+			<div class ="logo">
+				<a href ="index.html"><img src = "images/logo.jpg"height="40px" width="40px"></a>
+				
+			</div>
+            <div class ="topnav-right" id ="myTopnav">
+               <a href="shop.html">SHOP</a>
+                <a href="#about">ABOUT</a>
+                <a href="#blog">BLOG</a>
+                <a href="cart.html">CART</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+			 </div>
+			 
+              <div class ="bread-crumb" style="">
+                    <div class ="bread-crumb-text">
+                        <p><a href= "index.html">Home</a> / Shop</p>
+                    </div>
+            </div>
+        </div>
+        <div class="row">
+                <div class ="two">
+                    <div class ="side-bar">
+                    <p style="color:#000;padding-bottom:10px;font-weight:bold">By Categories</p> 
+                      <ul>
+                        <a href =""><li>Laptopd</li></a>
+                        <a href ="#"><li>Desktops</li></a>
+                        <a href ="#"><li>Mobile Phones</li></a>
+                        <a href ="#"><li>Tablets</li></a>
+                        <a href ="#"><li>TV</li></a>
+                        <a href ="#"><li>Digital camera</li></a>
+                        <a href ="#"><li>Appliances</li></a>	
+                      </ul>
+                      <p style="color:#000;padding-bottom:10px;font-weight:bold">By Price</p> 
+                      <ul>
+                        <a href =""><li>10.99- 20.99</li></a>
+                        <a href ="#"><li>10.99- 20.99</li></a>
+                        <a href ="#"><li> 10.99- 20.99</li></a>
+                        <a href ="#"><li>10.99- 20.99</li></a>
+                      </ul>
+                                  
+                    </div>
+                  </div>
+                <div class ="six">
+					<div class = "six-inner">
+					<div class ="cut-out"> Laptops</div>
+					<div class ="product-list">
+							<div class="img-column">
+								<img src="images/lappy.png" alt="Snow">
+								<div class ="img-desc">
+										<p>compaq 2980</p>
+									  
+								</div>
+								 <a href="#"class ="button3">Add to Cart</a>
+							</div>
+							<div class="img-column">
+								<img src="images/cli.jpg" alt="Snow">
+								<div class ="img-desc">
+										<p>intel @</p>
+								 </div>
+								 <a href="#"class ="button3">Add to Cart</a>
+							</div>
+							<div class="img-column">
+								<img src="images/cooker.jpg" alt="Snow">
+								<div class ="img-desc">
+										<p>e-machine Pro</p>
+								 </div>
+								  <a href="#"class ="button3">Add to Cart</a>
+							</div>
+							<div class="img-column">
+								<img src="images/laptop.png" alt="Snow">
+								<div class ="img-desc">
+										<p>Mac book Pro</p>
+									  
+								</div>
+								 <a href="#"class ="button3">Add to Cart</a>
+							</div>
+							 <div class="img-column">
+								<img src="images/laptop.png" alt="Snow">
+								<div class ="img-desc">
+										<p>Pavalion intel core </p>
+								</div>
+								 <a href="#"class ="button3">Add to Cart</a>
+							</div>
+							 <div class="img-column">
+								<img src="images/laptop.png" alt="Snow">
+								<div class ="img-desc">
+										<p>AMD Vision </p>
+								
+								</div>
+								 <a href="#"class ="button3">Add to Cart</a>
+							</div>
+							<div class="img-column">
+								<img src="images/lappy.png" alt="Snow">
+								<div class ="img-desc">
+										<p>AMD Vision </p>
+								
+								</div>
+								 <a href="#"class ="button3">Add to Cart</a>
+							</div>
+							<div class="img-column">
+								<img src="images/laptop.png" alt="Snow">
+								<div class ="img-desc">
+										<p>AMD Vision </p>
+								
+								</div>
+								 <a href="#"class ="button3">Add to Cart</a>
+							</div>
+						  </div>
+                </div>
+				</div>
+                 
+</body>
+</html>

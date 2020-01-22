@@ -1,0 +1,91 @@
+<!Doctype html>
+<html>
+<head>
+	<meta http-equiv = "content-type" content ="text/html; charset =UTF-8">
+	<meta name ="viewport" content ="width=device-width, initial-scale=1">
+	<title>Shopping cart</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel = "stylesheet" href ="css/customcss.css">
+	<script type ="text/javascript">
+	function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "top-menu-right") {
+    x.className += " responsive";
+  } else {
+    x.className = "top-menu-right";
+  }
+} 
+// When the user scrolls down 50px from the top of the document, resize the header's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("header").style.display = "block";
+  } else {
+    document.getElementById("header").style.display = "none";
+  }
+}
+</script>
+
+
+</head>
+<body bgcolor="#fff">
+      
+             <div class ="row">
+			<div class ="topnav">
+			
+			<div class ="logo">
+				<a href ="index.html"><img src = "images/logo.jpg"height="40px" width="40px"></a>
+				
+			</div>
+            <div class ="topnav-right" id ="myTopnav">
+               <a href="products.html">SHOP</a>
+                <a href="#about">ABOUT</a>
+                <a href="#blog">BLOG</a>
+                <a href="#cart.html">CART</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+			 </div>
+			 
+              <div class ="bread-crumb" style="">
+                    <div class ="bread-crumb-text">
+                        <p><a href= "">Home</a> / Cart</p>
+                    </div>
+            </div>
+        </div>
+        <div class="row">
+			<div class ="two">
+                    <h4>1item(s) in Shopping Cart</h4>
+					
+				</div>
+			</div>
+			<div class="row">
+				<div class ="double-outline">
+					<div class ="shopcart-boxes1">
+						<div class="img-column">
+								<img src="images/laptop.png" alt="Snow">
+							
+							</div>
+					</div>
+					<div class ="shopcart-boxes11"><p>Laptop 7</p> <p>21 inch 1TB SSD 16GB RAM</p></div>
+					<div class ="shopcart-boxes1">ac</div>
+					<div class ="shopcart-boxes1">xc</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class ="coupon-stage">
+					<p> Have a code ?</p>
+					<div class ="code-container">
+						<input type ="text" class ="code-input">
+						<div class ="code-input-submit"><h4>Apply</h4></div>
+					</div>
+					<div class ="cart-info">
+					
+				</div>
+			</div>
+			
+			</div>
+		</body>
+</html>

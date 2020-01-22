@@ -1,0 +1,25 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+#container{
+	width:400px;
+	height:400;
+	overflow:hidden;
+	background:gray;
+	margin:auto;
+}
+#slideshow{
+	height:300px;
+	width:220px;
+	margin:auto;
+	
+}
+#slideshow img{
+	height:300px;
+	width:200px;
+	margin-top:20px;
+	margin-left:10px;
+}
+}
